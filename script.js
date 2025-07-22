@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Carosello
     const slides = document.querySelectorAll(".slide");
     let currentSlide = 0;
-    const slideInterval = 5000;
+    const slideInterval = 2500;
 
     function showSlide(index) {
         slides.forEach((slide, i) => {
